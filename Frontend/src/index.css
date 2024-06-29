@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .style-body-dark{
+        @apply bg-slate-950 text-slate-100 border-slate-50 border-2;
+    }
+    .style-body-light{
+        @apply bg-slate-50 text-slate-600 border-slate-800 border-2;
+    }
+    .style-card-dark{
+        @apply bg-slate-800 text-slate-100;
+    }
+    .style-card-light{
+        @apply bg-slate-200 text-slate-600 shadow-xl ring-slate-900/5 ring-2;
+    }
+    .style-nav-dark{
+        @apply bg-slate-700 text-slate-100 border-slate-50 border-2
+    }
+    .style-nav-light{
+        @apply bg-slate-300 text-slate-600 border-slate-800 border-2
+    }
+    .style-input-dark{
+        @apply bg-blue-100 text-slate-950
+    }
+    .style-input-light{
+        @apply bg-slate-100 text-slate-950
+    }
+}
