@@ -2,13 +2,13 @@
 
 This todo application helps the user to create and manage their daily tasks in a effective way.
 
-# Tech Stack
+## Tech Stack
 
 This application is built over MERN (MongoDB, Express.js, React.js, Node.js) stack.Tailwind css is used to impart responsive designs for varied sized devices.The project also includes user authentication using bcrypt to jwt token.
 
 ## Check the live website here
 
-### URL : 
+#### URL :  https://todoapp-three-lilac.vercel.app
 
 ## Project Structure
 
